@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/blog.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn-uicons.flaticon.com/2.2.0/uicons-thin-rounded/css/uicons-thin-rounded.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn-uicons.flaticon.com/2.2.0/uicons-thin-straight/css/uicons-thin-straight.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-straight/css/uicons-solid-straight.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body data-theme="claro">
+        <header>
+            <i id="theme-toggle" class="fi fi-ss-bulb"></i>
+            <h1>Andra's Blog</h1>
+            <button>login</button>
+        </header>
+        <div id="banner">
+            <img
+                src="https://caesegatos.com.br/wp-content/uploads/2022/10/cachorro-6-1024x664.png"
+                alt="banner"
+            />
+        </div>
+        <div id="corpo">
+            <aside id="aside">
+                <h2>Pesquisar</h2>
+                <div id="pesquisar">
+                    <input type="text" name="" id="pesquisa" />
+                    <i class="fi fi-rr-search"></i>
+                </div>
+
+                <hr />
+                <h2>Filtros</h2>
+                <div class="filter-section">
+                    <h3>Ordenar por:</h3>
+                    <label>
+                        <input type="radio" name="sort" value="all" />
+                        Tudo
+                    </label>
+                    <label>
+                        <input type="radio" name="sort" value="asc" />
+                        Mais antigo para o mais recente
+                    </label>
+                    <label>
+                        <input type="radio" name="sort" value="desc" />
+                        Mais recente para o mais antigo
+                    </label>
+                    <label>
+                        <input type="radio" name="sort" value="relevant" />
+                        Mais relevante para o menos relevante
+                    </label>
+                </div>
+                <div class="filter-section">
+                    <h3>Selecionar por categoria:</h3>
+                    <select name="category">
+                        <option value="categoria1">Categoria 1</option>
+                        <option value="categoria2">Categoria 2</option>
+                        <option value="categoria3">Categoria 3</option>
+                    </select>
+                </div>
+            </aside>
+
+            <main id="main" tabindex="0">
+                <section id="latest-posts" class="latest-posts">
+                    <h2>Últimas Postagens</h2>
+                    <article>
+                        <h3>Título da Postagem</h3>
+                        <p>Conteúdo da postagem...</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <h3>Título da Postagem</h3>
+                        <p>Conteúdo da postagem...</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <h3>Título da Postagem</h3>
+                        <p>Conteúdo da postagem...</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <h3>Título da Postagem</h3>
+                        <p>Conteúdo da postagem...</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <h3>Título da Postagem</h3>
+                        <p>Conteúdo da postagem...</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                </section>
+
+                <section id="popular-posts" class="popular-posts">
+                    <h2>Postagens Populares</h2>
+                    <article>
+                        <h3>Título da Postagem</h3>
+                        <p>Conteúdo da postagem...</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                    <article>
+                        <h3>Título da Postagem</h3>
+                        <p>Conteúdo da postagem...</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                </section>
+
+                <section id="about-me" class="about-me">
+                    <h2>Sobre Mim</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nulla rutrum velit eget libero sodales, ac varius libero
+                        posuere. In hac habitasse platea dictumst.
+                    </p>
+                    <a href="#">Saiba mais sobre mim</a>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Andra's Blog. Todos os direitos reservados.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

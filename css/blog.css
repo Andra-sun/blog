@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+    transition: background-color 0.3s ease;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    margin: 0;
+}
+
+
+[data-theme="claro"] {
+    --color-bg: #f6f6f6f6;
+    --color-fg: #000000;
+    --color-main: #8a2be2;
+    --color-main-hover: #6a1b9a;
+    --color-detail: #91f733;
+    --color-card: #fff;
+}
+[data-theme="escuro"] {
+    --color-bg: #1e1e1e;
+    --color-fg: #ffffff;
+    --color-main: #8a2be2;
+    --color-main-hover: #6a1b9a;
+    --color-detail: #91f733;
+    --color-detail-hover: #61b117;
+    --color-card: #313131;
+}
+::selection {
+    background-color: var(--color-detail);
+}   
+
+input {
+    caret-color: var(--color-fg);
+}
+
+
+hr{
+    margin-top: 30px;
+    border: 0;
+    border-top: 1px solid var(--color-main);
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+}
+
+#banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+
+

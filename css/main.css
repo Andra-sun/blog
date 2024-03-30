@@ -1,0 +1,138 @@
+#corpo{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 1rem;
+}
+
+/* aside */
+aside {
+    width: 35%;
+    height: auto;
+    padding: 2rem;
+    background-color: var(--color-card);
+    color: var(--color-fg);
+    border-radius: 1rem;
+    align-self: center;
+    align-items: center;
+    margin-left: auto; 
+    position: sticky;
+    top: 50%; 
+    transform: translateY(-50%); 
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+.filter-section {
+    margin-bottom: 15px;
+
+}
+
+.filter-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.filter-section label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.filter-section input[type="radio"] {
+    margin-right: 5px;
+    accent-color: var(--color-main);
+}
+.filter-section select{
+    background-color: var(--color-card);
+    margin-right: 5px;
+    border: 2px solid var(--color-main);
+    height: 2.5rem;
+    width: 100%;
+    color: var(--color-fg);
+    border-radius: 7px;
+    padding: 0 2rem;
+}
+.filter-section select:hover{
+   background-color: var(--color-main);
+}
+.filter-section select option:hover {
+    background-color: var(--color-main-hover); /* Cor de fundo usando variável CSS */
+}
+
+#pesquisar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#pesquisa{
+    margin-top: 0;
+    height: 2rem;
+    width: 80%;
+    border: none;
+    border-radius: 7px;
+    outline: 2px solid var(--color-main);
+    background-color: var(--color-card);
+    color: var(--color-fg);
+}
+#pesquisar i{
+    background-color: var(--color-main);
+    border: none;
+    width: 15%;
+    color: #fff;
+    border-radius: 7px;
+    text-transform: capitalize;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#pesquisar i:hover{
+    background-color: var(--color-main-hover);
+}
+/* aside */
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+article {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article a {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
