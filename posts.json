@@ -1,0 +1,20 @@
+[
+    {
+        "id": "post1",
+        "title": "Título da Postagem 1",
+        "content": "Conteúdo da postagem 1...",
+        "date": "04/04/2024"
+    },
+    {
+        "id": "post2",
+        "title": "Título da Postagem 2",
+        "content": "Conteúdo da postagem 2...",
+        "date": "04/04/2024"
+    },
+    {
+        "id": "post3",
+        "title": "Título da Postagem 3",
+        "content": "Conteúdo da postagem 3...",
+        "date": "04/04/2024"
+    }
+]
